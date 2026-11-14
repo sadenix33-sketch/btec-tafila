@@ -37,9 +37,9 @@ export const BUSINESS_ACCREDITATION =
   'برنامج BTEC المهني والتقني المعتمد، بالتعاون مع مؤسسة بيرسون العالمية.';
 
 export const BUSINESS_SKILLS: BusinessSkill[] = [
-  { label: 'إدارة الأعمال', icon: Briefcase },
+  { label: 'إدارة الوقت', icon: Briefcase },
   { label: 'التسويق', icon: Megaphone },
-  { label: 'الإدارة المالية', icon: Wallet },
+  { label: 'االتواصل', icon: Wallet },
   { label: 'الموارد البشرية', icon: Users },
   { label: 'التخطيط والتنظيم', icon: CalendarCheck },
   { label: 'اتخاذ القرارات', icon: Scale },
@@ -47,6 +47,8 @@ export const BUSINESS_SKILLS: BusinessSkill[] = [
   { label: 'حل المشكلات', icon: Puzzle },
   { label: 'التفكير الإبداعي', icon: Sparkles },
   { label: 'إعداد المشاريع', icon: FolderKanban },
+  { label: 'القيادة ', icon: Rocket },
+  
 ];
 
 export const LEVELS: LevelStep[] = [
