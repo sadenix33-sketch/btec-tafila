@@ -12,7 +12,7 @@ export default function Hero() {
         src={SITE.heroImage}
         alt="طلاب مدرسة العيص الثانوية للبنين"
         decoding="async"
-        className="hero-image-in absolute inset-0 h-full w-full object-cover object-[58%_center] sm:object-center"
+        className="hero-image-in absolute inset-0 h-full w-full object-contain object-center"
       />
       <div className="absolute inset-0 bg-navy/55" />
       <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/50 to-navy/15" />
