@@ -9,7 +9,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     src: '/images/gallery/proj-smart-charge-presentation.jpg',
     alt: 'طالب يعرض مشروع طفيلة للشحن الذكي على شاشة العرض',
     category: 'student-projects',
-    caption: 'مشروع «طفيلة للشحن الذكي».. مذعة شحن متنقلة للمركبات الكهربائية',
+    caption: 'مشروع «طفيلة للشحن الذكي».. محطة شحن متنقلة للمركبات الكهربائية',
   },
   {
     id: 'smart-charge-strengths',
@@ -23,7 +23,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     src: '/images/gallery/proj-smart-charge-model.jpg',
     alt: 'نموذج محطة الشحن المتنقلة مع سيارات صغيرة موصولة بالكوابل',
     category: 'student-projects',
-    caption: 'نموذج محطة: طاقة شمسية، بطاريات، وشحن سريع على مدار الساعة',
+    caption: 'مشروع محطة الشحن المتنقل',
   },
   {
     id: 'ev-bus-blueprint',
@@ -35,16 +35,16 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'mix-station-branding',
     src: '/images/gallery/proj-mix-station-branding.jpg',
-    alt: 'هوية مشروع مكس ستيشن باص الأيس كريم والسناكات',
+    alt: 'هوية مشروع مكس سيزون باص الأيس كريم والسناكات',
     category: 'student-projects',
-    caption: 'هوية «مكس ستيشن».. باص الأيس كريم والسناكات',
+    caption: 'هوية «مكس سيزون».. باص الأيس كريم والسناكات',
   },
   {
     id: 'mix-station-model',
     src: '/images/gallery/proj-mix-station-model.jpg',
-    alt: 'طلاب يعرضون نموذج باص مكس ستيشن مع قائمة الطعام',
+    alt: 'طلاب يعرضون نموذج باص مكس سيزون مع قائمة الطعام',
     category: 'student-projects',
-    caption: 'نموذج باص «مكس ستيشن» أثناء العرض',
+    caption: 'نموذج باص «مكس سيزون» أثناء العرض',
   },
   {
     id: 'mix-station-lab',
@@ -91,21 +91,21 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     src: '/images/gallery/wrk-business-lesson.jpg',
     alt: 'معلم يشرح خطوات بناء المشروع على السبورة البيضاء',
     category: 'workshops',
-    caption: 'خطوات بناء المشروع على السبورة',
+    caption: 'خطوات سياسات التسعير',
   },
   {
     id: 'radio-study',
     src: '/images/gallery/wrk-radio-study.jpg',
-    alt: 'معلم يكتب دراسة تنظيم مسابقة إذاعية على السبورة',
+    alt: '',
     category: 'workshops',
-    caption: 'دراسة تنظيم مسابقة إذاعية',
+    caption: 'شرح انواع الهياكل التنظيمية',
   },
   {
     id: 'safety-lab',
     src: '/images/gallery/wrk-safety-lab.jpg',
-    alt: 'ورشة الأمن والسلامة في مختبر العلوم',
+    alt: 'شرح لتجهيز الطلابه لمشاريعهم النهايئة',
     category: 'workshops',
-    caption: 'ورشة الأمن والسلامة في مختبر العلوم',
+    caption: 'شرح لتجهيز الطلابه لمشاريعهم النهايئة',
   },
   {
     id: 'btec-lecture',
@@ -118,7 +118,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     src: '/images/gallery/wrk-financial-whiteboard.jpg',
     alt: 'سبورة مملوءة بحسابات الإيرادات والتكاليف',
     category: 'workshops',
-    caption: 'حسابات الإيرادات والتكاليف على السبورة',
+    caption: 'شرح واستخرج المعادلات المالية',
   },
   {
     id: 'break-even-screen',
@@ -166,9 +166,9 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'btec-team',
     src: '/images/gallery/act-btec-team.jpg',
-    alt: 'صورة جماعية لطلبة ومعلمي مدرسة العيص BTEC',
+    alt: 'صورة جماعية لطلبة ومعلمي  العيص BTEC',
     category: 'school-activities',
-    caption: 'فريق مدرسة العيص BTEC',
+    caption: 'خريجين اعمال الطفيلة BTEC',
   },
   {
     id: 'btec-team-wide',
@@ -179,9 +179,9 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'economy-presentation',
     src: '/images/gallery/act-economy-presentation.jpg',
-    alt: 'طالب بلباس رسمي يعرض درساً عن الاحتياجات والمصادر',
+    alt: 'تدريب الطلبة على مشاريع تخرجهم',
     category: 'school-activities',
-    caption: 'عرض عن الاحتياجات والمصادر في الاقتصاد',
+    caption: 'تدريب الطلبة على مشاريع تخرجهم',
   },
   {
     id: 'btec-assignment',
@@ -257,7 +257,7 @@ export const GALLERY_CATEGORY_LABELS: Record<GalleryCategory, string> = {
 // لقطات مميزة تُعرض في شريط "أبرز اللقطات" أعلى المعرض.
 export const GALLERY_FEATURED: { id: string; title: string; subtitle: string }[] = [
   { id: 'smart-charge-model', title: 'محطة الشحن المتنقلة', subtitle: 'مشروع طفيلة للشحن الذكي' },
-  { id: 'mix-station-branding', title: 'مكس ستيشن', subtitle: 'باص الأيس كريم والسناكات' },
+  { id: 'mix-station-branding', title: 'مكس سيزون', subtitle: 'باص الأيس كريم والسناكات' },
   { id: 'evaluation-committee', title: 'لجنة التقييم', subtitle: 'مناقشة المشاريع الطلابية' },
   { id: 'btec-team', title: 'فريق المدرسة', subtitle: 'طلبة ومعلمو ل' },
 ];
