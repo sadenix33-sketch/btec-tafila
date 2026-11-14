@@ -27,8 +27,8 @@ export default function Alumni() {
     <section id="alumni" className="scroll-mt-24 bg-white py-16 sm:py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         <SectionHeading
-          eyebrow="خريجو المدرسة"
-          title="خريجو مدرستنا.. قصص تستحق الفخر"
+          eyebrow="خريجو اعمال الطفيلة BTEC"
+          title="خريجو اعمال الطفيلة BTEC"
           description="نحتفي بطلابنا الذين كانوا جزءاً من رحلتنا التعليمية، ونوثق ذكرياتهم وتجاربهم وإنجازاتهم، لتبقى مسيرتهم مصدر إلهام للأجيال القادمة."
         />
 
@@ -46,7 +46,7 @@ export default function Alumni() {
                   دفعة التخرج {GRADUATION_YEAR}
                 </span>
                 <h3 className="mt-5 text-3xl font-bold leading-[1.2] text-white md:text-4xl">
-                  أروابهم سوداء.. وشحّهم ذهبي
+                  أروابهم سوداء.. وشاحهم ذهبي
                 </h3>
                 <p className="mx-auto mt-4 max-w-xl text-base leading-[1.6] text-white/75 md:text-lg">
                   لحظة يُوقّع فيها الطالب نهاية فصل ويبدأ المشوار الجديد. .
