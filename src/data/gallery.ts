@@ -94,11 +94,18 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     caption: 'خطوات سياسات التسعير',
   },
   {
+    id: 'business-lesson',
+    src: '/images/gallery/11.jpg',
+    alt: '',
+    category: 'workshops',
+    caption: 'خطوات سياسات التسعير',
+  },
+  {
     id: 'radio-study',
     src: '/images/gallery/wrk-radio-study.jpg',
     alt: '',
     category: 'workshops',
-    caption: 'شرح انواع الهياكل التنظيمية',
+    caption: '',
   },
   {
     id: 'safety-lab',
