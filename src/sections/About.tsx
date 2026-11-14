@@ -8,7 +8,7 @@ export default function About() {
     <section id="about" className="scroll-mt-24 bg-white py-24 md:py-32">
       <div className="mx-auto grid max-w-7xl gap-12 px-5 md:px-8 lg:grid-cols-12 lg:gap-16">
         <div className="lg:col-span-5">
-          <SectionHeading eyebrow="نبذة عن المدرسة" title="من نحن؟" />
+          <SectionHeading eyebrow="" title="من نحن؟" />
         </div>
 
         <div className="flex flex-col gap-6 lg:col-span-7">
