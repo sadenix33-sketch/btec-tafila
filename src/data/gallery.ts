@@ -93,13 +93,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'workshops',
     caption: 'خطوات سياسات التسعير',
   },
-  {
-    id: 'business-lesson',
-    src: '/images/gallery/11.jpg',
-    alt: '',
-    category: 'workshops',
-    caption: 'خطوات سياسات التسعير',
-  },
+ 
   {
     id: 'radio-study',
     src: '/images/gallery/wrk-radio-study.jpg',
@@ -165,8 +159,9 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'teachers-visit',
     src: '/images/gallery/part-teachers-visit.jpg',
-    alt: 'معلمون في زيارة لمختبر الحاسوب',
+    alt: 'زيارة رسميه من قبل عطوفة مدير تربية وتعليم الطفيلة',
     category: 'participations',
+    caption: 'زيارة رسميه من قبل عطوفة مدير تربية وتعليم الطفيلة',
   },
 
   // ── الأنشطة المدرسية ──
