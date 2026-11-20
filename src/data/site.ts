@@ -9,7 +9,7 @@ export const SITE = {
   heroImage: '/images/hero-school.jpg',
   heroIntro:
     'مساحة شخصية تجمع قصص الأفكار والمشاريع والمهارات العملية في عالم الأعمال، وتوثّق رحلة رواد الأعمال في الطفيلة مع برنامج BTEC.',
-  quote: 'صُنع بواسطة المهندس عاطف القطامين.',
+  quote: 'صُنع بواسطة المهندس عاطف سيف عباس القطامين.',
 };
 
 export const NAV_ITEMS: NavItem[] = [
